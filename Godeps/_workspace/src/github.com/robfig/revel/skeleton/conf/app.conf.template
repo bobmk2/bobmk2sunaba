@@ -1,11 +1,10 @@
-app.name=bobmk2sunaba
-app.secret=o6ZjpqDLHSdDtuqOzwQq05S5x6ECmQ87T10Lj0MEVgQfvY1wjcVMTyj3crE4jGTs
+app.name={{ .AppName }}
+app.secret={{ .Secret }}
 http.addr=
 http.port=9000
 http.ssl=false
 http.sslcert=
 http.sslkey=
-session.expires = 720h
 cookie.httponly=false
 cookie.prefix=REVEL
 cookie.secure=false
